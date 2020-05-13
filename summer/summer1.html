@@ -46,6 +46,9 @@
 
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="../css/responsive.css">
+    
+    <!-- SummerPage CSS -->
+    <link rel="stylesheet" href="./summer.css">
 
 
 </head>
@@ -58,80 +61,91 @@
     </div> -->
 
     <!-- Header -->
-    <header class="bg-danger">
-      <nav class="navbar navbar-fixed-top">
-          <div class="container-fluid">
-              <div class="site-nav-wrapper">
+    <header>
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="site-nav-wrapper">
 
-                  <div class="navbar-header">
+                    <div class="navbar-header">
 
-                      <!-- Mobile Menu Open Button -->
-                      <span id="mobile-nav-open-btn">&#9776;</span>
+                        <!-- Mobile Menu Open Button -->
+                        <span id="mobile-nav-open-btn">&#9776;</span>
 
-                      <!-- Logo -->
-                      <a class="navbar-brand smooth-scroll" href="#home">
-                          <img src="../images/logo.jpeg" width="50" alt="logo">
-                      </a>
-                  </div>
+                        <!-- Logo -->
+                        <a class="navbar-brand smooth-scroll" href="#home">
+                            <img src="../images/logo.jpeg" width="150" alt="logo">
+                        </a>
+                    </div>
 
-                  <!-- Main Menu -->
-                  <div class="container">
-                      <div class="collapse navbar-collapse">
-                          <ul class="nav navbar-nav pull-right">
-                              <li><a class="smooth-scroll" href="../index.html">Home</a></li>
-                              <li>
-                                  <a href="#" class="summer">Summer Academy</a>
-                                  <div class="dropdown drop-01">
-                                      <a href="summer/summer1.html">summer 01</a>
-                                      <a href="summer/summer2.html">summer 02</a>
-                                      <a href="summer/summer3.html">summer 03</a>
-                                  </div>
-                              </li>
-                              <li>
-                                  <a class="scholars" href="#team">Scholars</a>
-                                  <div class="dropdown drop-02">
-                                      <a href="scholar/scholar1.html">scholar 01</a>
-                                      <a href="scholar/scholar2.html">scholar 02</a>
-                                      <a href="scholar/scholar3.html">scholar 03</a>
-                                  </div>
-                              </li>
-                              <li><a class="smooth-scroll" href="#services">Services</a></li>
-                              <li><a class="smooth-scroll" href="#portfolio">Work</a></li>
-                              <li><a class="smooth-scroll" href="#blog">Blogs</a></li>
-                              <li><a class="smooth-scroll" href="#contact">Contact</a></li>
-                          </ul>
-                      </div>
-                  </div>
+                    <!-- Main Menu -->
+                    <div class="container">
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav pull-right">
+                                <li><a class="smooth-scroll" href="#home">Home</a></li>
+                                <li>
+                                    <a href="./summer/summer1.html" class="summer">Summer Academy</a>
+                                    <!-- <div class="dropdown drop-01" style="width: 170px; height: 80px;">
+                                        <a href="summer/summer1.html" style="letter-spacing: -0.5px;">application requirements</a>
+                                        <a href="summer/summer2.html">application form</a>
+                                        <a href="summer/summer3.html">application timeline</a>
+                                    </div> -->
+                                </li>
+                                <li>
+                                    <a class="scholars" href="#team">Scholars</a>
+                                    <div class="dropdown drop-02" style="height: 120px;">
+                                        <a href="scholar/scholar1.html">north america</a>
+                                        <a href="scholar/scholar2.html">europe</a>
+                                        <a href="scholar/scholar3.html">africa</a><br>
+                                        <a href="scholar/scholar4.html">asia</a>
+                                    </div>
+                                </li>
+                                <li><a class="smooth-scroll" href="#services">Services</a></li>
+                                <li><a class="smooth-scroll" href="#portfolio">about us</a></li>
+                                <li><a class="smooth-scroll" href="#blog">Blogs</a></li>
+                                <li><a class="smooth-scroll" href=""><button type="button" class="btn btn-warning">Donate</button></a></li>
+                                <li>
+                                    <a class="smooth-scroll" href="#">
+                                        <form class="form-inline my-2 my-lg-0">
+                                            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                                            <!-- <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button> -->
+                                        </form>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
-                  <!-- Mobile Menu -->
-                  <div id="mobile-nav">
-                      <!-- Mobile Menu Close Button -->
-                      <span id="mobile-nav-close-btn">&times;</span>
+                    <!-- Mobile Menu -->
+                    <div id="mobile-nav">
+                        <!-- Mobile Menu Close Button -->
+                        <span id="mobile-nav-close-btn">&times;</span>
 
-                      <div id="mobile-nav-content">
-                          <ul class="nav">
-                              <li><a class="smooth-scroll" href="#home">Home</a></li>
-                              <li><a class="smooth-scroll" href="#about">Summer Academy</a></li>
-                              <li><a class="smooth-scroll" href="#team">Scholars</a></li>
-                              <li><a class="smooth-scroll" href="#services">Services</a></li>
-                              <li><a class="smooth-scroll" href="#portfolio">Work</a></li>
-                              <li><a class="smooth-scroll" href="#blog">Blogs</a></li>
-                              <li><a class="smooth-scroll" href="#contact">Contact</a></li>
-                          </ul>
-                      </div>
-                  </div>
+                        <div id="mobile-nav-content">
+                            <ul class="nav">
+                                <li><a class="smooth-scroll" href="#home">Home</a></li>
+                                <li><a class="smooth-scroll" href="#about">Summer Academy</a></li>
+                                <li><a class="smooth-scroll" href="#team">Scholars</a></li>
+                                <li><a class="smooth-scroll" href="#services">Services</a></li>
+                                <li><a class="smooth-scroll" href="#portfolio">about us</a></li>
+                                <li><a class="smooth-scroll" href="#blog">Blogs</a></li>
+                                <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
 
-              </div>
-          </div>
-      </nav>
-  </header>
-  <!-- Header Ends -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Ends -->
 
   <!--Section on requirements for Open dreams-->
-  <section>
-      <div class="container">
-
-      </div>
+  <section id="summerpage navbar">
+        <div class="container">
+            <ul>
+    
+            </ul>
+        </div>
   </section>
 
      <h1 class="bg-warning" style="margin-top: 100px;">hello world from the summer page 01</h1>
