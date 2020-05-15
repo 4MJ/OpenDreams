@@ -141,6 +141,13 @@ section {
     margin: 8px 0 30px 0;
 }
 
+#home-content-inner{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
 /* horizontal decoration */
 
 .span-hr-left {
